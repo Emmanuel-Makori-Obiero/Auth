@@ -6,6 +6,16 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="Buttons">
+      <button onclick="location.href = 'index.html'">Register</button>
+      <button onclick="location.href = 'login.html'">Login</button>
+      <button onclick="location.href = 'dashboard.html'">Dashboard</button>
+    </div>
+    <style>
+      .Buttons {
+        display: flex;
+      }
+    </style>
     <form onsubmit="return showmessage();">
       <label>email</label><br />
       <input type="email" style="width: 300px" name="email" /><br />
