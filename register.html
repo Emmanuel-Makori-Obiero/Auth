@@ -17,17 +17,49 @@
       }
     </style>
     <div style="text-align: center">
-      <form action="https://formspree.io/f/mgonprnn" method="post">
-        <label>First Name</label><br />
-        <input type="text" name="First Name" /><br />
-        <label>Surname</label><br />
-        <input type="text" name="Surname" /><br />
-        <label>Email address</label><br />
-        <input type="email" name="email" /><br />
-        <label>Password</label><br />
-        <input type="password" name="New Password" /><br />
-        <label>Repeat Password</label><br />
-        <input type="password" name="Repeat Password" /><br /><br />
+      <form>
+        <label for="firstName">First Name</label><br />
+        <input
+          id="firstName"
+          type="text"
+          placeholder="e.g John"
+          required
+        /><br />
+        <label for="lastName">Last Name</label><br />
+        <input
+          id="lastName"
+          type="text"
+          placeholder="enter your last name"
+          required
+        /><br />
+        <label for="emailAddress">Email address</label><br />
+        <input
+          id="emailAddress"
+          type="email"
+          placeholder="enter your email"
+          required
+        /><br />
+        <label for="phoneNumber">Phone number</label><br />
+        <input
+          id="phoneNumber"
+          type="tel"
+          placeholder="Enter your Phone Number"
+          required
+        /><br />
+        <label for="newPassword">Password</label><br />
+        <input
+          id="newPassword"
+          type="password"
+          placeholder="Enter New Password"
+          required
+        /><br />
+        <label for="confirmPassword">Confirm Password</label><br />
+        <input
+          id="confirmPassword"
+          type="password"
+          placeholder="Repeat New Password"
+          required
+        /><br /><br />
         <button type="submit">register</button>
       </form>
     </div>
