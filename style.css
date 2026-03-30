@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: lightblue;
+  padding: 0 32px;
+  height: 64px;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 70px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.nav-links a:last-child {
+  color: #38bdf8;
+}
+
+body {
+  background-image: url(Vector.png);
+}
