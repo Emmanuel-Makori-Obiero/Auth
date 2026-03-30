@@ -11,14 +11,39 @@
     <title>Home</title>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="logo"><img src="Icon auth.png" width="100px" alt="" /></div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="register.html">Register</a>
-        <a href="dashboard.html">Dashboard</a>
+    <div class="wholething">
+      <nav class="navbar">
+        <div class="logo"><img src="Icon auth.png" width="100px" alt="" /></div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="register.html">Register</a>
+          <a href="dashboard.html">Dashboard</a>
+        </div>
+      </nav>
+      <div class="after">
+        <div class="formafter">
+          <form>
+            <label for="firstName"><i class="fa-solid fa-user"></i></label>
+            <input
+              id="firstName"
+              type="text"
+              name="firstName"
+              placeholder="username"
+            />
+            <label for="Password"><i class="fa-solid fa-lock"></i></label>
+            <input
+              id="Password"
+              type="password"
+              name="Password"
+              placeholder="Enter your password"
+            />
+            <div class="signin"><a href="dashboard.html">Sign in</a></div>
+            <a href="register.html">Dont have an account?</a>
+          </form>
+        </div>
+        <div class="imageafter"><img src="Icon auth.png" alt="" /></div>
       </div>
-    </nav>
+    </div>
     <!-- <i class="fas fa-bars"></i>
     <i class="fa-solid fa-user"></i>
     <i class="fa-solid fa-lock"></i>-->
