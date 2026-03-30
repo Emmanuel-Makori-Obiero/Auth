@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: lightblue;
+  padding: 0 32px;
+  height: 64px;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 70px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+body {
+  background-image: url(Vector.png);
+}
+
+.wholething {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.card {
+  margin: 40px;
+  background-color: grey;
+  border-radius: 9px;
+  height: 100px;
+  width: 100px;
+  color: black;
+  align-content: center;
+  justify-content: center;
+}
+
+table th,
+tr,
+td {
+  border: 2px solid black;
+  width: 700px;
+}
