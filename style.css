@@ -54,4 +54,6 @@ form .Signup a {
   margin: 10px;
   background-color: blanchedalmond;
   cursor: pointer;
+  border-radius: 7px;
+  padding: 1px;
 }
