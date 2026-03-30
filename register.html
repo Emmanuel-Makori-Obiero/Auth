@@ -2,44 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.6" />
     <link rel="stylesheet" href="style.css" />
     <title>Register</title>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="logo"><img src="Icon auth.png" width="100px" alt="" /></div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="register.html">Register</a>
-        <a href="dashboard.html">Dashboard</a>
+    <div class="wholething">
+      <nav class="navbar">
+        <div class="logo"><img src="Icon auth.png" width="100px" alt="" /></div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="register.html">Register</a>
+          <a href="dashboard.html">Dashboard</a>
+        </div>
+      </nav>
+      <div class="form">
+        <form>
+          <h1>
+            <b><u>Sign up</u></b>
+          </h1>
+          <label for="firstName">First Name</label>
+          <input
+            id="firstName"
+            type="text"
+            placeholder="Enter your first name"
+          />
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" placeholder="Enter your last name" />
+          <label for="emailAddress">Email Address</label>
+          <input
+            id="emailAddress"
+            type="email"
+            placeholder="Enter your email address"
+          />
+          <label for="newPassword">New Password</label>
+          <input
+            id="newPassword"
+            type="password"
+            name="NewPassword"
+            placeholder="Enter your new password"
+          />
+          <label for="confirmPassword">Confirm Password</label>
+          <input
+            id="confirmPassword"
+            type="password"
+            placeholder="Confirm new password"
+          />
+          <div class="Signup"><a href="dashboard.html">Sign up</a></div>
+          <p>
+            Have an account?<a href="login.html"><b>sign in</b></a>
+          </p>
+        </form>
       </div>
-    </nav>
-    <div class="form">
-      <form>
-        <label for="firstName">First Name</label>
-        <input id="firstName" type="text" placeholder="Enter your first name" />
-        <label for="lastName">Last Name</label>
-        <input id="lastName" type="text" placeholder="Enter your last name" />
-        <label for="emailAddress">Email Address></label>
-        <input
-          id="emailAddress"
-          type="email"
-          placeholder="Enter your email address"
-        />
-        <label for="newPassword">New Password</label>
-        <input
-          type="password"
-          name="New Password"
-          placeholder="Enter your new password"
-        />
-        <label for="confirmPassword">Confirm Password</label>
-        <input
-          id="confirmPassword"
-          type="password"
-          placeholder="Confirm new password"
-        />
-      </form>
     </div>
   </body>
 </html>

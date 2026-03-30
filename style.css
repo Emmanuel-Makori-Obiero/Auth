@@ -21,10 +21,37 @@
   transition: 0.3s;
 }
 
-.nav-links a:last-child {
-  color: #38bdf8;
-}
-
 body {
   background-image: url(Vector.png);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  padding: 0 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wholething {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+form h1 {
+  color: blue;
+}
+
+form a {
+  cursor: pointer;
+}
+
+form .Signup a {
+  text-decoration: none;
+  color: blue;
+  margin: 10px;
+  background-color: blanchedalmond;
+  cursor: pointer;
 }
