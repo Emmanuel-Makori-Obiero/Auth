@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -92,4 +97,35 @@ form .Signup a {
   width: 283px;
   height: 300px;
   border-radius: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 70px;
+  margin: 10px;
+  opacity: 0.8;
+  backdrop-filter: blur(90px);
+}
+
+.head {
+  color: white;
+  gap: 60px;
+}
+
+.headbutton {
+  display: flex;
+  margin: 80px;
+  background-color: none;
+  justify-content: space-between;
+  padding: 0 30px;
+  color: white;
+}
+
+.button1 {
+  color: white;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 7px;
 }
