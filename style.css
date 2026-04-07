@@ -34,9 +34,11 @@ form {
   display: flex;
   flex-direction: column;
   background-color: lightblue;
-  padding: 0 32px;
+  margin: 0 100px;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
+  gap: 6px;
 }
 
 .wholething {
@@ -88,14 +90,15 @@ form .Signup a {
 
 .after {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-between;
   align-items: center;
   padding: 0 59px;
 }
 
 .imageafter img {
-  width: 283px;
-  height: 300px;
+  width: 130px;
+  height: 60px;
   border-radius: 10px;
 }
 
