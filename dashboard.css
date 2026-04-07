@@ -38,17 +38,28 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .card {
-  margin: 40px;
-  background-color: grey;
-  border-radius: 9px;
-  height: 100px;
-  width: 100px;
-  color: black;
-  align-content: center;
-  justify-content: center;
+  background-color: blue;
+  padding: 20px;
+  margin: 7px;
+  border-radius: 7px;
+}
+
+@media (max-width: 768px;) {
+  .card {
+    margin: 40px;
+    background-color: grey;
+    border-radius: 9px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 table th,
