@@ -28,14 +28,15 @@
 body {
   background-image: url(Vector.png);
 }
-
-.wholething {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding: 40px;
-  justify-content: space-between;
-  align-items: center;
+@media (max-width: 768px) {
+  .wholething {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .cards {
@@ -75,4 +76,14 @@ td {
   margin: 0;
   padding: 0;
   border-style: border-box;
+}
+
+.formcontainer {
+  background-color: lightblue;
+  padding: 40px;
+  border-radius: 7px;
+}
+
+.formcontainer {
+  gap: 10px;
 }

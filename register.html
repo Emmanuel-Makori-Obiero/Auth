@@ -18,7 +18,7 @@
         </div>
       </nav>
       <div class="form">
-        <form>
+        <form action="dashboard.html" method="get">
           <h1>
             <b><u>Sign up</u></b>
           </h1>
@@ -27,6 +27,7 @@
             id="firstName"
             type="text"
             placeholder="Enter your first name"
+            required
           />
           <label for="lastName">Last Name</label>
           <input id="lastName" type="text" placeholder="Enter your last name" />
@@ -35,6 +36,7 @@
             id="emailAddress"
             type="email"
             placeholder="Enter your email address"
+            required
           />
           <label for="newPassword">New Password</label>
           <input
@@ -42,14 +44,16 @@
             type="password"
             name="NewPassword"
             placeholder="Enter your new password"
+            required
           />
           <label for="confirmPassword">Confirm Password</label>
           <input
             id="confirmPassword"
             type="password"
             placeholder="Confirm new password"
+            required
           />
-          <div class="Signup"><a href="dashboard.html">Sign up</a></div>
+          <button type="submit"><div class="Signup">Sign up</div></button>
           <p>
             Have an account?<a href="login.html"><b>sign in</b></a>
           </p>
