@@ -28,15 +28,13 @@
 body {
   background-image: url(Vector.png);
 }
-@media (max-width: 768px) {
-  .wholething {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 40px;
-    justify-content: space-between;
-    align-items: center;
-  }
+.wholething {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cards {
@@ -56,13 +54,11 @@ body {
   color: black;
 }
 
-@media (min-width: 768px;) {
-  .card {
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+.card {
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 table th,
@@ -86,4 +82,10 @@ td {
 
 .formcontainer {
   gap: 10px;
+}
+
+@media (max-width: 768px;) {
+  .navbar {
+    padding: 23px 10px;
+  }
 }
