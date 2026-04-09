@@ -20,10 +20,12 @@
           <a href="register.html">Register</a>
           <a href="dashboard.html">Dashboard</a>
         </div>
-        <button class="Hambuger" id="Hambuger" aria-label="Toggle menu">
-          <span></span>
-          <span></span>
-          <span></span>
+
+        <!-- HAMBUGER -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </button>
       </nav>
       <div class="body">
@@ -45,5 +47,14 @@
     <footer>
       <p>&copy; all rights reserved</p>
     </footer>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navlinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navlinks.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
