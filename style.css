@@ -12,6 +12,7 @@
   height: 64px;
   align-items: center;
   border-radius: 2px;
+  /* position: fixed; */
 }
 
 .hamburger {
